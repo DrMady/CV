@@ -1,0 +1,247 @@
+html, body
+{
+	height: 100%;
+	margin: auto;
+	background: gray url("");
+}
+
+.page
+{
+	height: 100%;
+	width: 100%;
+
+}
+
+header
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: #d9d9d9;
+}
+
+nav
+{
+	box-shadow: 0px 1px white;
+	width: 100%;
+
+}
+
+main 
+{
+	display: flex;
+}
+
+
+.col
+{
+	border: 1px black solid;
+
+}
+
+.col1
+{
+	border: 5px black solid;
+	margin: 3%;
+	padding: 2%;
+	background-color: #555555;
+}
+
+h1
+{
+	margin-left: 5%;
+}
+
+h2
+{
+	margin-left: 2%;
+}
+
+h3
+{
+	margin-left: 1%;
+}
+
+ul
+{
+	list-style-type:none;
+}
+
+.nav
+{
+	display:flex;
+	background-color: black;
+
+}
+
+.nav p
+{
+	margin: 1% 5%;
+	color: white;
+
+}
+
+.contact 
+{
+	margin-left: 10px;
+	color: white;
+	align-self: center;
+}
+.num
+{
+	width: 200px;
+
+}
+
+.visual 
+{
+	margin-left: 25%;
+}
+
+.visual-top
+{
+	border: 2px white solid;
+	margin: 3%;
+	background-color: #BB6CC9;
+} 
+
+
+
+.visual-top-right
+{
+	border: 2px white solid;
+	margin: 3%;
+	background-color: #BB6CC9;
+} 
+
+.visual-bot
+{
+	border: 2px white solid;
+	margin: 11.5% 3% 3% 3%;
+	height: 39.3%;
+	background-color: #BB6CC9;
+}
+
+.visual-bot-right
+{
+	border: 2px white solid;
+	margin: 10% 3% 3% 3%;
+	background-color: #BB6CC9;
+}
+
+.sct-h
+{
+display: flex;
+margin: 3%;
+
+}
+
+
+.comp
+{
+	display:flex;
+	
+}
+
+.lang
+{
+	display:flex;
+}
+
+
+.sct-1
+{
+	flex:1;
+}
+
+.sct-2
+{
+	flex:1;
+}
+
+
+.img-h
+{
+	width: 150px;
+	height: 150px;
+	float:left;
+	object-fit: cover;
+}
+
+.img-comp
+{
+	width: 80px;
+	height: 70px;
+}
+
+.img-exp
+{
+	width: 80px;
+	height: 80px;
+}
+
+.img-main
+{
+	
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+	margin: 5%;
+
+}
+
+.img-form
+{
+	width: 80px;
+	height: 80px;
+}
+.img-centr
+{
+	width: 80px;
+	height: 80px;
+}
+
+#one
+{
+	flex: 1;
+}
+
+#two
+{
+	flex: 1;
+}
+
+
+
+
+.unk
+{
+
+	width: 150px;
+	text-align: center;
+	margin: 10px 20px 10px 20px;
+	color: #bfbfbf;
+}
+
+.story 
+{
+	width: 150px;
+	height: 40%;
+	overflow: hidden;
+	margin: 10px 20px 10px 20px;
+	text-align: center;
+	color: #bfbfbf;
+}
+.resume
+{
+	width: 150px;
+	height: 40%;
+	overflow: auto;
+	margin: 10px 20px 10px 20px;
+	color: #bfbfbf;
+}
+
+.checked {
+    color: purple;
+}
+
